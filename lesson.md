@@ -99,4 +99,11 @@ As AWS releases new services and features, it's a best practice to review your e
 
 Implementing new features or resource types can optimize your workload incrementally, while minimizing the effort required to implement the change. This provides continual improvements in efficiency over time and ensures you remain on the most updated technology to reduce operating costs. You can also replace or add new components to the workload with new services. This can provide significant increases in efficiency, so it's essential to regularly review your workload, and implement new services and features.
 
+**Q: How do you evaluate new services?**
 
+As AWS releases new services and features, it's a best practice to review your existing architectural decisions to ensure they continue to be the most cost effective.
+
+Best Practices:
+
+- Develop a workload review process: Develop a process that defines the criteria and process for workload review. The review effort should reflect potential benefit: for example, core workloads or workloads with a value of over 10% of the bill are reviewed quarterly, while workloads below 10% are reviewed annually.
+- Review and analyze this workload regularly: Existing workloads are regularly reviewed as per defined processes.
