@@ -6,7 +6,7 @@ Technical knowledge is vast. Timebox yourself for 3 hours to work on the followi
 
 ### Video 
 
-- add links
+- https://www.youtube.com/watch?v=lMU871_1XrU
 
 ### Readings
 
