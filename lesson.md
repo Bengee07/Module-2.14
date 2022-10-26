@@ -2,6 +2,11 @@
 
 ### Preparation
 
+### Self Study Check In### 
+
+Q1: Do you think higher cost at computing will make your system better?
+
+Q2: How do you make Cost-effective resources?
 
 
 ### Lesson Overview
