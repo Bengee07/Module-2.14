@@ -19,11 +19,34 @@ This module focuses on the cost optimization pillar, and how to architect worklo
 
 There are five design principles for cost optimization in the cloud:
 
-- Implement Cloud Financial Management: To achieve financial success and accelerate business value realization in the cloud, you need to invest in Cloud Financial Management /Cost Optimization. Your organization needs to dedicate time and resources to build capability in this new domain of technology and usage management. Similar to your Security or Operational Excellence capability, you need to build capability through knowledge building, programs, resources, and processes to become a cost-efficient organization.
-- Adopt a consumption model: Pay only for the computing resources that you require and increase or decrease usage depending on business requirements, not by using elaborate forecasting. For example, development and test environments are typically only used for eight hours a day during the work week. You can stop these resources when they are not in use for a potential cost savings of 75% (40 hours versus 168 hours).
-- Measure overall efficiency: Measure the business output of the workload and the costs associated with delivering it. Use this measure to know the gains you make from increasing output and reducing costs.
-- Stop spending money on undifferentiated heavy lifting: AWS does the heavy lifting of data center operations like racking, stacking, and powering servers. It also removes the operational burden of managing operating systems and applications with managed services. This allows you to focus on your customers and business projects rather than on IT infrastructure.
-- Analyze and attribute expenditure: The cloud makes it easier to accurately identify the usage and cost of systems, which then allows transparent attribution of IT costs to individual workload owners. This helps measure return on investment (ROI) and gives workload owners an opportunity to optimize their resources and reduce costs.
+- **Implement Cloud Financial Management**: To achieve financial success and accelerate business value realization in the cloud, you need to invest in Cloud Financial Management /Cost Optimization. Your organization needs to dedicate time and resources to build capability in this new domain of technology and usage management. Similar to your Security or Operational Excellence capability, you need to build capability through knowledge building, programs, resources, and processes to become a cost-efficient organization.
+- **Adopt a consumption model**: Pay only for the computing resources that you require and increase or decrease usage depending on business requirements, not by using elaborate forecasting. For example, development and test environments are typically only used for eight hours a day during the work week. You can stop these resources when they are not in use for a potential cost savings of 75% (40 hours versus 168 hours).
+- **Measure overall efficiency**: Measure the business output of the workload and the costs associated with delivering it. Use this measure to know the gains you make from increasing output and reducing costs.
+- **Stop spending money on undifferentiated heavy lifting**: AWS does the heavy lifting of data center operations like racking, stacking, and powering servers. It also removes the operational burden of managing operating systems and applications with managed services. This allows you to focus on your customers and business projects rather than on IT infrastructure.
+- **Analyze and attribute expenditure**: The cloud makes it easier to accurately identify the usage and cost of systems, which then allows transparent attribution of IT costs to individual workload owners. This helps measure return on investment (ROI) and gives workload owners an opportunity to optimize their resources and reduce costs.
+
+
+## Activity - Understanding Cost Optimization
+
+Based on this module, there are few items mentioned:
+
+- Implement Cloud Financial Management
+- Adopt a consumption model
+- Measure overall efficiency
+- Stop spending money on undifferentiated heavy lifting
+- Analyze and attribute expenditure
+
+
+In this activity, gather into your own group and each group should take on one or two research problem. Ensure all research problems are taken and presented by the end of this section.
+
+
+|Research Topic|Answer|
+|----------------|------|
+|Implement Cloud Financial Management|*Make few key activities and explain them*|
+|Adopt a consumption model|*Make few key activities and explain them*|
+|Measure overall efficiency|*Make few key activities and explain them*|
+|Stop spending money on undifferentiated heavy lifting|*Make few key activities and explain them*|
+|Analyze and attribute expenditure|*Make few key activities and explain them*|
 
 ---
 
@@ -48,19 +71,6 @@ Many organizations are composed of many different units with different prioritie
 
 In AWS you can use Cost Explorer, and optionally Amazon Athena and Amazon QuickSight with the Cost and Usage Report (CUR), to provide cost and usage awareness throughout your organization. AWS Budgets provides proactive notifications for cost and usage. The AWS blogs provide information on new services and features to ensure you keep up to date with new service releases.
 
-**Q: How do you implement cloud financial management?**
-
-Implementing Cloud Financial Management enables organizations to realize business value and financial success as they optimize their cost and usage and scale on AWS.
-
-Best Practices:
-
-- Establish a cost optimization function: Create a team that is responsible for establishing and maintaining cost awareness across your organization. The team requires people from finance, technology, and business roles across the organization.
-- Establish a partnership between finance and technology: Involve finance and technology teams in cost and usage discussions at all stages of your cloud journey. Teams regularly meet and discuss topics such as organizational goals and targets, current state of cost and usage, and financial and accounting practices.
-- Establish cloud budgets and forecasts: Adjust existing organizational budgeting and forecasting processes to be compatible with the highly variable nature of cloud costs and usage. Processes must be dynamic using trend based or business driver-based algorithms, or a combination.
-- Implement cost awareness in your organizational processes: Implement cost awareness into new or existing processes that impact usage, and leverage existing processes for cost awareness. Implement cost awareness into employee training.
-- Report and notify on cost optimization: Configure AWS Budgets to provide notifications on cost and usage against targets. Have regular meetings to analyze this workload's cost efficiency and to promote cost aware culture.
-- Monitor cost proactively: Implement tooling and dashboards to monitor cost proactively for the workload. Do not just look at costs and categories when you receive notifications. This helps to identify positive trends and promote them throughout your organization.
-- Keep up to date with new service releases: Consult regularly with experts or APN Partners to consider which services and features provide lower cost. Review AWS blogs and other information sources.
 
 ### Expenditure and usage awareness
 
@@ -70,18 +80,6 @@ Many businesses are composed of multiple systems run by various teams. The capab
 
 In AWS, you create an account structure with AWS Organizations or AWS Control Tower, which provides separation and assists in allocation of your costs and usage. You can also use resource tagging to apply business and organization information to your usage and cost. Use AWS Cost Explorer for visibility into your cost and usage, or create customized dashboards and analytics with Amazon Athena and Amazon QuickSight. Controlling your cost and usage is done by notifications through AWS Budgets, and controls using AWS Identity and Access Management (IAM), and Service Quotas.
 
-**Q: How do you monitor usage and cost?**
-
-Establish policies and procedures to monitor and appropriately allocate your costs. This allows you to measure and improve the cost efficiency of this workload.
-
-Best Practices:
-
-- Configure detailed information sources: Configure the AWS Cost and Usage Report, and Cost Explorer hourly granularity, to provide detailed cost and usage information. Configure your workload to have log entries for every delivered business outcome.
-- Identify cost attribution categories: Identify organization categories that could be used to allocate cost within your organization.
-- Establish organization metrics: Establish the organization metrics that are required for this workload. Example metrics of a workload are customer reports produced or web pages served to customers.
-- Configure billing and cost management tools: Configure AWS Cost Explorer and AWS Budgets inline with your organization policies.
-- Add organization information to cost and usage: Define a tagging schema based on organization, and workload attributes, and cost allocation categories. Implement tagging across all resources. Use Cost Categories to group costs and usage according to organization attributes.
-- Allocate costs based on workload metrics: Allocate the workload's costs by metrics or business outcomes to measure workload cost efficiency. Implement a process to analyze the AWS Cost and Usage Report with Amazon Athena, which can provide insight and charge back capability.
 
 ### Cost-effective resources
 
@@ -104,11 +102,26 @@ As AWS releases new services and features, it's a best practice to review your e
 
 Implementing new features or resource types can optimize your workload incrementally, while minimizing the effort required to implement the change. This provides continual improvements in efficiency over time and ensures you remain on the most updated technology to reduce operating costs. You can also replace or add new components to the workload with new services. This can provide significant increases in efficiency, so it's essential to regularly review your workload, and implement new services and features.
 
-**Q: How do you evaluate new services?**
 
-As AWS releases new services and features, it's a best practice to review your existing architectural decisions to ensure they continue to be the most cost effective.
+---
 
-Best Practices:
+## Activity - Understanding Security
 
-- Develop a workload review process: Develop a process that defines the criteria and process for workload review. The review effort should reflect potential benefit: for example, core workloads or workloads with a value of over 10% of the bill are reviewed quarterly, while workloads below 10% are reviewed annually.
-- Review and analyze this workload regularly: Existing workloads are regularly reviewed as per defined processes.
+Based on this module, there are few items mentioned:
+
+- Practice Cloud Financial Management
+- Expenditure and usage awareness
+- Cost-effective resources
+- Manage demand and supply resources
+- Optimize over time
+
+In this activity, gather into your own group and each group should take on one or two research problem. Ensure all research problems are taken and presented by the end of this section.
+
+
+|Research Problem|Answer|
+|----------------|------|
+|How do you implement cloud financial management?|*Make few key activities and explain them*|
+|How do you monitor usage and cost?|*Make few key activities and explain them*|
+|How do you evaluate new services?|*Make few key activities and explain them*|
+
+
