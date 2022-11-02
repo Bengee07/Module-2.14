@@ -2,7 +2,7 @@
 
 ### Preparation
 
-### Self Study Check In### 
+### Self Study Check In
 
 Q1: Do you think higher cost at computing will make your system better?
 
