@@ -17,6 +17,10 @@ This module focuses on the cost optimization pillar, and how to architect worklo
 
 ## Part 1 - Cost Optimization Principles
 
+
+![image](https://user-images.githubusercontent.com/106639884/201037332-2b482dea-f2d0-427e-a1b3-71679e75d676.png)
+
+
 There are five design principles for cost optimization in the cloud:
 
 - **Implement Cloud Financial Management**: To achieve financial success and accelerate business value realization in the cloud, you need to invest in Cloud Financial Management /Cost Optimization. Your organization needs to dedicate time and resources to build capability in this new domain of technology and usage management. Similar to your Security or Operational Excellence capability, you need to build capability through knowledge building, programs, resources, and processes to become a cost-efficient organization.
@@ -51,6 +55,10 @@ In this activity, gather into your own group and each group should take on one o
 ---
 
 ## Part 2 - Best Practice for Cost Optimization
+
+
+![image](https://user-images.githubusercontent.com/106639884/201037256-361fbcbd-c86e-4429-9fe9-858986e7cc0f.png)
+
 
 There are five best practice areas for cost optimization in the cloud:
 
