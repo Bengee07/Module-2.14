@@ -105,6 +105,9 @@ Appropriate service selection can also reduce usage and costs; such as CloudFron
 
 ### Manage demand and supply resources
 
+
+![image](https://user-images.githubusercontent.com/106639884/201039091-b44374c6-e542-4b86-9823-334c514a1d5f.png)
+
 When you move to the cloud, you pay only for what you need. You can supply resources to match the workload demand at the time they’re needed, this eliminates the need for costly and wasteful over provisioning. You can also modify the demand, using a throttle, buffer, or queue to smooth the demand and serve it with less resources resulting in a lower cost, or process it at a later time with a batch service.
 
 In AWS, you can automatically provision resources to match the workload demand. Auto Scaling using demand or time-based approaches allow you to add and remove resources as needed. If you can anticipate changes in demand, you can save more money and ensure your resources match your workload needs. You can use Amazon API Gateway to implement throttling, or Amazon SQS to implementing a queue in your workload. These will both allow you to modify the demand on your workload components.
